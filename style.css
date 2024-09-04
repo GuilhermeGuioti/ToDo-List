@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: url(img/background.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteiner{
+    width: 500px;
+    background-color: #d1d1d1;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 12rem;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.caixas{
+    width: 100%;
+    margin-bottom: 2.5rem;
+}
+
+.caixas input{
+    width: 70%;
+    height: 2.5rem;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    padding-left: 1rem;
+    font-size: 1rem;
+}
+
+.caixas button{
+    width: 20%;
+    float: right;
+    height: 2.5rem;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background-color: #003329;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.caixas button:hover{
+    opacity: 0.8;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+    height: 50px;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+img{
+    width: 30px;
+    cursor: pointer;
+    opacity: 0;
+    transition: ease 0.3s;
+}
+
+ul li:hover img{
+    opacity: 1;
+}
